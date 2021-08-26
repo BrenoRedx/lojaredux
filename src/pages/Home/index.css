@@ -10,8 +10,7 @@
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
-  border-radius: 4px;
-  border-color: black;
+  border-radius: 10px;
   width: 271px;
   height: 509px;
 }
@@ -27,29 +26,67 @@
   line-height: 20px;
   color: #191919;
   margin-top: 10px;
-}
-.box button {
-  margin-top: auto;
-  margin-left: 50px;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(0, 0, 0);
-  background-color: #ffffff;
-  border-color: black;
-  border-radius: 10px;
-  width: 200px;
-  height: 60px;
-}
-.box button div {
-  display: flex;
-  align-items: center;
-  padding: 10px;
+  text-align: left;
+  margin-left: 5px;
 }
 .texto-strong {
+  display: flex;
+  position: absolute;
   text-align: left;
-  padding-left: 30px;
-  padding-top: 10px;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-top: 380px;
   margin-bottom: 10px;
+}
+.escritor {
+  color: rgb(138, 119, 119);
+  font-weight: lighter;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.span {
+  text-align: left;
+  margin-left: 8px;
+  font-weight: lighter;
+  font-size: 20px;
+}
+.container-image {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  width: 65%;
+  height: 400px;
+  margin-left: 270px;
+  margin-top: 100px;
+  border-radius: 5px;
+}
+.background-image {
+  display: flex;
+  position: absolute;
+  background-image: url("https://s2.glbimg.com/Uy7qcX2g6gZ-5oPe82JWdBJX8vo=/0x0:2000x1334/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/K/B/8Hc9iIRC6kB5Dh2KUmnw/foto-1-materia-bibliotecas-unifor-biblioteca-central.jpg");
+  background-repeat: no-repeat;
+  width: 62%;
+  height: 360px;
+  margin-left: 62px;
+  margin-top: 20px;
+}
+.button-position {
+  position: absolute;
+  display: flex;
+  margin-top: 450px;
+  margin-left: 30px;
+  text-decoration: none;
+}
+
+.button-style {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
 }

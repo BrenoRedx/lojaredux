@@ -1,0 +1,153 @@
+.container-carrinho {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px 0 rgb (0 0 0 / 10%);
+  margin-bottom: 100px;
+  border-radius: 0.25rem;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 1000px;
+  width: 90%;
+}
+.container-carrinho img {
+  width: 311px;
+  height: 450px;
+  margin-left: 80px;
+  margin-top: 30px;
+  border-radius: 5px;
+}
+.container-carrinho h2 {
+  margin-left: 70px;
+  height: 70px;
+  margin-bottom: 0;
+}
+.texto-h3 {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  padding-bottom: 0px;
+  padding-top: 60px;
+  padding-left: 470px;
+  position: absolute;
+}
+.compra {
+  width: 800px;
+  height: 400px;
+  background-color: #ddd;
+  margin-top: 130px;
+  margin-left: 450px;
+  display: flex;
+  position: absolute;
+  border-radius: 4px;
+  border-color: white;
+}
+.texto-card-compra {
+  display: flex;
+  color: black;
+  text-align: left;
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.texto-card-compra2 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 80px;
+}
+.texto-card-compra3 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+.texto-card-compra4 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 15px;
+  padding-left: 20px;
+  padding-top: 40px;
+}
+.texto-card-compra5 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 25px;
+  padding-left: 20px;
+  padding-top: 80px;
+  font-weight: bold;
+}
+.texto-card-compra6 {
+  display: flex;
+  position: absolute;
+  color: green;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 120px;
+  font-weight: lighter;
+}
+.texto-card-compra7 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 70px;
+  padding-top: 160px;
+  font-weight: bold;
+}
+.button-card-compra {
+  width: 400px;
+  height: 40px;
+  margin-top: 270px;
+  margin-left: -10px;
+  background-color: #ecb0b0;
+  border-radius: 5px;
+  border-color: #ddd;
+}
+.card-compra {
+  width: 500px;
+  height: 350px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 170px;
+  margin-left: 700px;
+  display: flex;
+  position: absolute;
+}
+.icon-card {
+  margin-top: 150px;
+  margin-left: 20px;
+}
+.container-descricao {
+  width: 85%;
+  height: 400px;
+  background-color: #ddd;
+  border-radius: 10px;
+  border-color: black;
+  display: flex;
+  position: absolute;
+  margin-top: 600px;
+  margin-left: 35px;
+}
+.descricao-text {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 17px;
+  padding-left: 70px;
+  padding-top: 60px;
+  padding-right: 15px;
+  font-weight: normal;
+}

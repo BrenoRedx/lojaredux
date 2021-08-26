@@ -6,32 +6,32 @@
 }
 .logo--espaco {
   position: absolute;
-  padding-left: 40px;
-  padding-top: 20px;
-  width: 80px;
+  display: flex;
   margin: 0;
+  padding: 25px;
+  padding-left: 130px;
 }
-.reserva {
+.carrinho {
   display: flex;
   align-items: center;
   text-decoration: none;
 }
-.reserva div {
+.carrinho div {
   text-align: right;
   margin-left: 90%;
   margin-top: 3%;
 }
-.reserva strong {
+.carrinho strong {
   color: #fff;
   display: block;
 }
-.reserva span {
+.carrinho span {
   color: #ddd;
   font-size: 15px;
 }
 .texto {
   position: absolute;
-  width: 300px;
+  width: 200px;
   height: 60px;
 
   font-style: normal;
@@ -40,7 +40,48 @@
   line-height: 53px;
   text-align: center;
   margin-top: 30px;
-  margin-left: 100px;
+  margin-left: 200px;
 
   color: rgb(255, 255, 255);
+}
+.carrinho-icone {
+  display: flex;
+  position: absolute;
+  margin: 0;
+  margin-top: 40px;
+  margin-left: 90%;
+}
+.contagem {
+  display: flex;
+  position: absolute;
+  margin-left: 92%;
+  background-color: rgb(0, 0, 0);
+  width: 20px;
+  border-radius: 20px;
+  height: 20px;
+  margin-top: 43px;
+}
+.contagem-number {
+  margin-left: 92.2%;
+  margin-top: 40px;
+  display: flex;
+  position: absolute;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+.pesquisa {
+  position: absolute;
+  display: flex;
+}
+.input-class {
+  width: 500px;
+  text-align: center;
+  height: 30px;
+  border-radius: 5px;
+  border-color: rgb(231, 225, 225);
+  box-shadow: none;
+  margin-left: 500px;
+  margin-top: 40px;
 }

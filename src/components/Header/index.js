@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./index.css";
-import { BiPaperPlane } from "react-icons/bi";
+import { BsBook, AiOutlineShoppingCart } from "react-icons/all";
 import { useSelector } from "react-redux";
 
 export default function Header() {
@@ -9,18 +9,27 @@ export default function Header() {
 
   return (
     <div className="container">
-      <div>
-        <Link to="/" className="logo--espaco">
-          <BiPaperPlane size={70} color="#fff"></BiPaperPlane>
-        </Link>
-      </div>
-      <div className="texto">Book Store</div>
-      <Link className="reserva" to="/reservas">
-        <div>
-          <strong>Carrinhos</strong>
-          <span>{compraSize}</span>
-        </div>
+      <Link to="/">
+        <BsBook size={70} color="#fff" className="logo--espaco"></BsBook>
       </Link>
+      <div className="texto">Book Store</div>
+      <div className="pesquisa">
+        <input
+          type="text"
+          name="Pesquisa de Livros"
+          placeholder="Pesquisa de Livros"
+          className="input-class"
+        ></input>
+      </div>
+      <Link to="/Carrinho">
+        <AiOutlineShoppingCart
+          size={50}
+          color="#fff"
+          className="carrinho-icone"
+        />
+      </Link>
+      <div className="contagem"></div>
+      <div className="contagem-number">{compraSize}</div>
     </div>
   );
 }
