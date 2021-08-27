@@ -1,13 +1,13 @@
-.container {
-  width: 100%;
-  height: 120px;
+.container-teste {
+  width: 2200px;
   margin: 0;
+  padding: 0;
+  height: 120px;
   background-color: rgb(236, 176, 176);
 }
-.logo--espaco {
+.logo--espaco--teste {
   position: absolute;
   display: flex;
-  margin: 0;
   padding: 25px;
   padding-left: 130px;
 }
@@ -18,8 +18,8 @@
 }
 .carrinho div {
   text-align: right;
-  margin-left: 90%;
-  margin-top: 3%;
+  margin-left: 1800px;
+  margin-top: 25px;
 }
 .carrinho strong {
   color: #fff;
@@ -47,14 +47,13 @@
 .carrinho-icone {
   display: flex;
   position: absolute;
-  margin: 0;
   margin-top: 40px;
-  margin-left: 90%;
+  margin-left: 1425px;
 }
 .contagem {
   display: flex;
   position: absolute;
-  margin-left: 92%;
+  margin-left: 1456px;
   background-color: rgb(0, 0, 0);
   width: 20px;
   border-radius: 20px;
@@ -62,8 +61,8 @@
   margin-top: 43px;
 }
 .contagem-number {
-  margin-left: 92.2%;
-  margin-top: 40px;
+  margin-left: 1460px;
+  margin-top: 38px;
   display: flex;
   position: absolute;
   font-size: 20px;

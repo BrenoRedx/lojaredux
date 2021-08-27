@@ -2,13 +2,13 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable array-callback-return */
 import { useState, useEffect } from "react";
-import { useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import api from "../../services/api";
 import "./index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Caroseul from "../../components/Caroseul";
 
 export default function Home() {
-  const dispatch = useDispatch();
   const [books, setBooks] = useState([]);
 
   useEffect(() => {
@@ -20,16 +20,10 @@ export default function Home() {
   }, []);
   console.log(books);
 
-  function handleAdd(item) {
-    dispatch({
-      type: "ADD_COMPRA",
-      item,
-    });
-  }
   return (
     <div>
       <div className="container-image">
-        <div className="background-image"></div>
+        <Caroseul />
       </div>
       <div className="box">
         {books.map((item, key) => {
@@ -41,14 +35,25 @@ export default function Home() {
               <span className="span">
                 Status: {item.status ? "Disponível" : "Indisponível"}
               </span>
-              <div className="escritor">1 oferta a partir de:</div>
-              <div className="texto-strong">{item.price}</div>
-              <Link to="/Carrinho" className="button-position">
-                <button
-                  type="button"
-                  onClick={() => handleAdd(item)}
-                  className="button-style"
-                >
+              <div className="escritor">
+                1 oferta a partir de:
+                {item.desconto ? (
+                  <div className="teste">{item.price}</div>
+                ) : (
+                  <div></div>
+                )}
+              </div>
+              <div className="Quantidade">Quantidade disponível : 2</div>
+              <div className="texto-strong">
+                R$
+                {item.desconto ? (
+                  <div>{item.valorcomdesconto}</div>
+                ) : (
+                  <div>{item.price}</div>
+                )}
+              </div>
+              <Link to={`/Carrinho/${item.id}`} className="button-position">
+                <button type="button" className="button-style">
                   Saiba Mais
                 </button>
               </Link>

@@ -1,46 +1,4 @@
 {
-  "stock": [
-    {
-      "id": 1,
-      "amount": 10
-    },
-    {
-      "id": 2,
-      "amount": 10
-    },
-    {
-      "id": 3,
-      "amount": 10
-    },
-    {
-      "id": 4,
-      "amount": 10
-    },
-    {
-      "id": 5,
-      "amount": 10
-    },
-    {
-      "id": 6,
-      "amount": 10
-    },
-    {
-      "id": 7,
-      "amount": 10
-    },
-    {
-      "id": 8,
-      "amount": 10
-    },
-    {
-      "id": 9,
-      "amount": 10
-    },
-    {
-      "id": 10,
-      "amount": 10
-    }
-  ],
   "books": [
     {
       "id": 1,
@@ -49,7 +7,7 @@
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12103199-200-200/1008971706.jpg?v=637142225824030000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12103199/1008971706.jpg?v=637142225824030000",
       "price": 64.9,
-      "desconto": 9.0,
+      "desconto": 9,
       "valorcomdesconto": 55.9
     },
     {
@@ -58,7 +16,7 @@
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12109869-200-200/1006831096.jpg?v=637142251112930000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12109869/1006831096.jpg?v=637142251112930000",
-      "price": 29.0,
+      "price": 29,
       "desconto": 4.1,
       "valorcomdesconto": 24.9
     },
@@ -68,7 +26,7 @@
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31753307-200-200/1011207895.jpg?v=637481465498270000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31753307/1011207895.jpg?v=637481465498270000",
-      "price": 19.0,
+      "price": 19,
       "desconto": 4.1,
       "valorcomdesconto": 14.9
     },
@@ -78,7 +36,7 @@
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31744807-200-200/1011155244.jpg?v=637474534172570000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31744807/1011155244.jpg?v=637474534172570000",
-      "price": 17.0,
+      "price": 17,
       "desconto": 4.1,
       "valorcomdesconto": 12.9
     },
@@ -98,7 +56,7 @@
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31767639-200-200/1011232598.jpg?v=637489970376100000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31767639/1011232598.jpg?v=637489970376100000",
-      "price": 150.0,
+      "price": 150,
       "desconto": 36.1,
       "valorcomdesconto": 113.9
     },
@@ -109,7 +67,7 @@
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31734906-200-200/1011012217.jpg?v=637436239101900000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31734906/1011012217.jpg?v=637436239101900000",
       "price": 79.9,
-      "desconto": 40.0,
+      "desconto": 40,
       "valorcomdesconto": 39.9
     },
     {
@@ -120,7 +78,7 @@
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12112024/1005139704.jpg?v=637142259178470000",
       "price": 59.9,
       "desconto": 24.9,
-      "valorcomdesconto": 35.0
+      "valorcomdesconto": 35
     },
     {
       "id": 9,
@@ -138,7 +96,7 @@
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31772662-200-200/novo-vade.jpg?v=637630988699330000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31772662/novo-vade.jpg?v=637630988699330000",
-      "price": 215.0,
+      "price": 215,
       "desconto": "",
       "valorcomdesconto": ""
     }

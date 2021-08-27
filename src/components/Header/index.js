@@ -8,20 +8,12 @@ export default function Header() {
   const compraSize = useSelector((state) => state.carrinho.length);
 
   return (
-    <div className="container">
-      <Link to="/">
-        <BsBook size={70} color="#fff" className="logo--espaco"></BsBook>
+    <div className="container-teste">
+      <Link to="/" className="logo--espaco--teste">
+        <BsBook size={70} color="#fff"></BsBook>
       </Link>
       <div className="texto">Book Store</div>
-      <div className="pesquisa">
-        <input
-          type="text"
-          name="Pesquisa de Livros"
-          placeholder="Pesquisa de Livros"
-          className="input-class"
-        ></input>
-      </div>
-      <Link to="/Carrinho">
+      <Link to="/Compra/">
         <AiOutlineShoppingCart
           size={50}
           color="#fff"

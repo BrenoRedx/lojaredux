@@ -1,0 +1,148 @@
+.container-compra {
+  background-color: rgb(255, 255, 255);
+  padding: 1.5rem;
+  box-shadow: 0 1px 4px 0 rgb (0 0 0 / 10%);
+  margin-bottom: 100px;
+  border-radius: 0.25rem;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 50px;
+  width: 90%;
+  height: 1900px;
+}
+.line {
+  display: flex;
+  width: 90%;
+  position: absolute;
+  height: 3px;
+  background-color: rgba(128, 128, 128, 0.363);
+  margin-top: 60px;
+}
+.box-compra {
+  display: grid;
+  grid-template-columns: repeat(1, 1px);
+  grid-gap: 1px;
+  list-style: none;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 120px;
+}
+.box-compra li {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
+  border: 3px solid;
+  border-color: rgba(128, 128, 128, 0.315);
+  width: 1000px;
+  height: 270px;
+  margin: 15px;
+}
+.box-compra img {
+  max-width: 171px;
+  max-height: 171px;
+  border-radius: 4px;
+  padding-top: 20px;
+  padding-left: 60px;
+}
+.texto1 {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 220px;
+}
+.texto2 {
+  font-size: 25px;
+  font-weight: bold;
+  display: flex;
+  position: absolute;
+  padding-left: 220px;
+  padding-top: 38px;
+}
+.teste1 {
+  display: flex;
+  position: absolute;
+}
+.texto3 {
+  display: flex;
+  position: absolute;
+  color: green;
+  font-size: 20px;
+  font-weight: lighter;
+  padding-left: 220px;
+  padding-top: 80px;
+}
+.texto4 {
+  display: flex;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: lighter;
+  padding-left: 220px;
+  padding-top: 110px;
+}
+.texto5 {
+  display: flex;
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 17px;
+  font-weight: lighter;
+  padding-left: 420px;
+  padding-top: 110px;
+}
+.button-style-compra {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+  width: 200px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  border-color: black;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  display: flex;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 250px;
+}
+.button-icon-delete {
+  display: flex;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 949px;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
+}
+.icone-texto {
+  color: red;
+  display: flex;
+  position: absolute;
+  margin-top: 220px;
+  margin-left: 870px;
+}
+.button-icon-aumentar {
+  display: flex;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 375px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: white;
+}
+.button-icon-diminuir {
+  display: flex;
+  position: absolute;
+  margin-top: 110px;
+  margin-left: 435px;
+  width: 45px;
+  height: 45px;
+  border: none;
+  background-color: white;
+}

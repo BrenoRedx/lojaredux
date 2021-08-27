@@ -1,10 +1,31 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./index.css";
 import { BsCreditCard } from "react-icons/bs";
-import { useSelector } from "react-redux";
+import { useParams } from "react-router";
+import api from "../../services/api";
+import { useDispatch } from "react-redux";
+import { addCompra } from "../../store/modules/carrinho/actions";
+//import { useSelector } from "react-redux";
 
 export default function Carrinho() {
-  const saibamais = useSelector((state) => state.carrinho);
+  const dispatch = useDispatch();
+  const [saibamais, setBooks] = useState([]);
+
+  const { id } = useParams();
+
+  useEffect(() => {
+    async function loadApi() {
+      const response = await api.get(`books/${id}`);
+      setBooks(response.data);
+    }
+    loadApi();
+  }, [id]);
+
+  console.log(saibamais);
+
+  function handleAdd(saibamais) {
+    dispatch(addCompra(saibamais));
+  }
 
   return (
     <div className="body-color">
@@ -28,8 +49,8 @@ export default function Carrinho() {
             um momento de tantas incertezas e medos.
           </div>
         </div>
-        <img src={saibamais[0].imagefull} alt="teste"></img>
-        <h2 className="title">{saibamais[0].title}</h2>
+        <img src={saibamais.imagefull} alt="teste"></img>
+        <h2 className="title">{saibamais.title}</h2>
         <div className="texto-h3">
           Autor: Saraiva Educação| Marca: Saraiva Jur
         </div>
@@ -37,18 +58,56 @@ export default function Carrinho() {
           <div className="texto-card-compra">Produto Físico</div>
           <div className="texto-card-compra2">Escolha uma oferta:</div>
         </div>
+        <div className="card-compra2">
+          <div className="texto-card-compra2-1">Loja: Book Store</div>
+          <div className="texto-card-compra2-2">
+            R${" "}
+            {saibamais.desconto ? (
+              <div>{saibamais.valorcomdesconto}</div>
+            ) : (
+              <div>{saibamais.price}</div>
+            )}
+          </div>
+        </div>
         <div className="card-compra">
           <div className="texto-card-compra3">
             Vendido e entregue por: Book Store
           </div>
-          <div className="texto-card-compra4">{saibamais[0].price}</div>
-          <div className="texto-card-compra5">R$ 27,90</div>
-          <div className="texto-card-compra6">Economize até R$ 15,00 (35%)</div>
+          <div className="texto-card-compra4">R$ {saibamais.price}</div>
+          <div className="texto-card-compra5">
+            R${" "}
+            {saibamais.desconto ? (
+              <div>{saibamais.valorcomdesconto}</div>
+            ) : (
+              <div>{saibamais.price}</div>
+            )}
+          </div>
+          <div className="texto-card-compra6">
+            {saibamais.desconto ? (
+              <div>Economize até R${saibamais.desconto}</div>
+            ) : (
+              <div></div>
+            )}
+          </div>
           <div>
             <BsCreditCard className="icon-card" size={40} />
           </div>
-          <div className="texto-card-compra7">Cartão Book Store: R$ 27,90</div>
-          <button className="button-card-compra">Comprar</button>
+          <div className="texto-card-compra7">
+            Cartão Book Store: R${" "}
+            {saibamais.desconto ? (
+              <div>{saibamais.valorcomdesconto}</div>
+            ) : (
+              <div>{saibamais.price}</div>
+            )}
+            - em 1x vez
+          </div>
+          <div className="texto-card-compra8">Quantidade disponível:2</div>
+          <button
+            className="button-card-compra"
+            onClick={() => handleAdd(saibamais)}
+          >
+            Comprar
+          </button>
         </div>
       </div>
     </div>

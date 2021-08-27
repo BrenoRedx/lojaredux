@@ -44,7 +44,8 @@
 }
 .texto-card-compra {
   display: flex;
-  color: black;
+  color: gray;
+  font-weight: bold;
   text-align: left;
   font-size: 20px;
   padding-left: 20px;
@@ -107,6 +108,16 @@
   padding-top: 160px;
   font-weight: bold;
 }
+.texto-card-compra8 {
+  display: flex;
+  position: absolute;
+  color: black;
+  text-align: left;
+  font-size: 14px;
+  padding-left: 20px;
+  padding-top: 190px;
+  font-weight: lighter;
+}
 .button-card-compra {
   width: 400px;
   height: 40px;
@@ -150,4 +161,25 @@
   padding-top: 60px;
   padding-right: 15px;
   font-weight: normal;
+}
+.card-compra2 {
+  width: 200px;
+  height: 80px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  position: absolute;
+  margin-left: 500px;
+  margin-top: 240px;
+}
+.texto-card-compra2-1 {
+  display: flex;
+  position: absolute;
+}
+.texto-card-compra2-2 {
+  display: flex;
+  position: absolute;
+  margin-top: 25px;
+  margin-left: 5px;
+  color: black;
+  font-weight: bold;
 }

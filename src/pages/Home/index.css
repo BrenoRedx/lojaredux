@@ -35,7 +35,7 @@
   text-align: left;
   font-size: 30px;
   padding-left: 5px;
-  padding-top: 380px;
+  padding-top: 390px;
   margin-bottom: 10px;
 }
 .escritor {
@@ -54,7 +54,7 @@
 .container-image {
   display: flex;
   background-color: rgb(255, 255, 255);
-  width: 65%;
+  width: 1200px;
   height: 400px;
   margin-left: 270px;
   margin-top: 100px;
@@ -65,9 +65,9 @@
   position: absolute;
   background-image: url("https://s2.glbimg.com/Uy7qcX2g6gZ-5oPe82JWdBJX8vo=/0x0:2000x1334/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/K/B/8Hc9iIRC6kB5Dh2KUmnw/foto-1-materia-bibliotecas-unifor-biblioteca-central.jpg");
   background-repeat: no-repeat;
-  width: 62%;
+  width: 850px;
   height: 360px;
-  margin-left: 62px;
+  margin-left: 12px;
   margin-top: 20px;
 }
 .button-position {
@@ -77,7 +77,14 @@
   margin-left: 30px;
   text-decoration: none;
 }
-
+.Quantidade {
+  display: flex;
+  position: absolute;
+  color: rgb(2, 2, 2);
+  padding-top: 360px;
+  padding-left: 12px;
+  font-weight: lighter;
+}
 .button-style {
   color: rgb(0, 0, 0);
   background-color: #ffffff;
@@ -89,4 +96,8 @@
   border-radius: 10px;
   font-size: 15px;
   text-decoration: none;
+}
+.teste {
+  padding-top: 2px;
+  text-decoration: line-through;
 }
