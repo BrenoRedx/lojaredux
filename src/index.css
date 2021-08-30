@@ -4,7 +4,7 @@ body {
   outline: 0;
   width: 100%;
   box-sizing: border-box;
-  background-color: #efefefbb;
+  background-color: #efefef91;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
@@ -13,7 +13,7 @@ body {
 }
 #root {
   width: 100%;
-  background-color: #efefefc9;
+  background-color: #efefef91;
 }
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",

@@ -2,15 +2,15 @@
   "stock": [
     {
       "id": 1,
-      "amount": 10
+      "amount": 5
     },
     {
       "id": 2,
-      "amount": 10
+      "amount": 6
     },
     {
       "id": 3,
-      "amount": 10
+      "amount": 8
     },
     {
       "id": 4,
@@ -18,129 +18,158 @@
     },
     {
       "id": 5,
-      "amount": 10
+      "amount": 3
     },
     {
       "id": 6,
-      "amount": 10
+      "amount": 2
     },
     {
       "id": 7,
-      "amount": 10
+      "amount": 1
     },
     {
       "id": 8,
-      "amount": 10
+      "amount": 13
     },
     {
       "id": 9,
-      "amount": 10
+      "amount": 5
     },
     {
       "id": 10,
-      "amount": 10
+      "amount": 4
     }
   ],
   "books": [
     {
       "id": 1,
       "title": "O Poder do Hábito - Por Que Fazemos o Que Fazemos na Vida",
+      "autor": "Duhigg,Charles",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12103199-200-200/1008971706.jpg?v=637142225824030000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12103199/1008971706.jpg?v=637142225824030000",
       "price": 64.9,
       "desconto": 9.0,
-      "valorcomdesconto": 55.9
+      "valorcomdesconto": 55.9,
+      "description": "Este livro é um verdadeiro e profundo estudo dos hábitos. Porém, além de mostrar como eles funcionam, o autor Charles Duhigg também consegue explicar como eles podem ser transformados. E cá entre nós, ter o controle total das ações, sejam costumes ou não, facilita diversos aspectos da vida. Quer ver?Conseguir mudar o hábito de pegar o elevador, pelo hábito de subir lances de escada e fazer mais exercícios, pode influenciar a sua saúde futura. Fora a saúde, com pequenas mudanças de hábito, esse livro mostra que é possível ter resultados positivos na sua produtividade, na estabilidade financeira e até mesmo na sua felicidade.A importância de se criar hábitos corretos”Em “O Poder do Hábito - Por Que Fazemos o Que Fazemos na Vida e Nos Negócios” o autor toca em outro assunto importantíssimo, que é a criação de hábitos corretos. À primeira vista, isso pode parecer pequeno. No entanto, ao longo do livro você vai ver que, saber corrigir atitudes no momento certo pode contribuir com o seu sucesso.Como exemplo, Duhigg conta casos de mudanças e correções de hábitos. Dentre eles, há histórias do próprio autor, mas também de outras pessoas. Você vai descobrir, por exemplo, como hábitos corretos foram importantes para garantir o sucesso do diretor executivo da Starbucks, Howard Schultz, de um dos maiores nomes da luta por direitos civis, Martim Luther King, e até do nadador Micheal Phelps, que já conquistou mais de 20 medalhas olímpicas de ouro.",
+      "amount": 5
     },
     {
       "id": 2,
       "title": "O Homem Mais Rico da Babilônia",
+      "autor": "Clason,George S.",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12109869-200-200/1006831096.jpg?v=637142251112930000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12109869/1006831096.jpg?v=637142251112930000",
       "price": 29.0,
       "desconto": 4.1,
-      "valorcomdesconto": 24.9
+      "valorcomdesconto": 24.9,
+      "description": "Com mais de dois milhões de exemplares vendidos no mundo todo, “O homem mais rico da Babilônia” é um clássico sobre como multiplicar riqueza e solucionar problemas financeiros. Baseando-se nos segredos de sucesso dos antigos babilônicos — os habitantes da cidade mais rica e próspera de seu tempo —, George S. Clason mostra soluções ao mesmo tempo sábias e muito atuais para evitar a falta de dinheiro, como não desperdiçar recursos durante tempos de opulência, buscar conhecimento e informação em vez de apenas lucro, assegurar uma renda para o futuro, manter a pontualidade no pagamento de dívidas e, sobretudo, cultivar as próprias aptidões, tornando-se cada vez mais habilidoso e consciente.",
+      "amount": 6
     },
     {
       "id": 3,
       "title": "O Poder da Autorresponsabilidade",
+      "autor": "Vieira,Paulo",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31753307-200-200/1011207895.jpg?v=637481465498270000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31753307/1011207895.jpg?v=637481465498270000",
       "price": 19.0,
       "desconto": 4.1,
-      "valorcomdesconto": 14.9
+      "valorcomdesconto": 14.9,
+      "description": "Muitas pessoas têm consciência de que precisam assumir as rédeas da própria vida, porém não sabem como fazerisso na prática. Este livro traz ao leitor o conceito de autorresponsabilidade. Trata-se de um manual que apresenta ametodologia das 6 leis para a conquista da autorresponsabilidade, de modo que o leitor assuma o comando de suavida. Aplicando esse conceito, você será capaz de levar alta performance à vida pessoal e profissional, saindo de umestado não satisfatório para uma vida de abundância e de sucesso. Aqui você vai aprender a:1. Calar-se em vez de criticar.2. Dar sugestão em vez de reclamar.3. Buscar a solução em vez de buscar culpados.4. Fazer-se de vencedor em vez de vitimizar-se.5. Aprender com os erros em vez de justificá-los.6. Julgar as atitudes, e não as pessoas.",
+      "amount": 8
     },
     {
       "id": 4,
       "title": "Ansiedade - Como Enfrentar o Mal do Século - A Síndrome do Pensamento Acelerado...",
+      "autor": "Cury,Augusto",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31744807-200-200/1011155244.jpg?v=637474534172570000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31744807/1011155244.jpg?v=637474534172570000",
       "price": 17.0,
       "desconto": 4.1,
-      "valorcomdesconto": 12.9
+      "valorcomdesconto": 12.9,
+      "description": "Você sofre por antecipação? Acorda cansado? Não tolera trabalhar com pessoas lentas? Tem dores de cabeça ou muscular? Esquece-se das coisas com facilidade? Se você respondeu “sim” a alguma dessas questões, é bem provável que sofra da Síndrome do Pensamento Acelerado (SPA). Considerada pelo psiquiatra Augusto Cury como o novo mal do século, suplantando a depressão, ela acomete grande parte da população mundial. Neste livro, você entenderá como funciona a mente humana para ser capaz de desacelerar seu pensamento, gerir sua emoção de maneira eficaz e resgatar sua qualidade de vida.",
+      "amount": 10
     },
     {
       "id": 5,
       "title": "Box - Edgar Allan Poe - Histórias Extraordinárias - 3 Volumes - Acompanha Pôster",
+      "autor": "Poe,Edgar Allan",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12712112-200-200/1008543077.jpg?v=637154480658900000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12712112/1008543077.jpg?v=637154480658900000",
       "price": 59.9,
       "desconto": 25,
-      "valorcomdesconto": 34.9
+      "valorcomdesconto": 34.9,
+      "description": "Composto por três grandes obras, o box “Obras de Edgar Allan Poe”, contém os livros: “O escaravelho de ouro”, o famoso “O corvo e outros contos” e o lendário “O gato preto e outras histórias extraordinárias”. Acompanha 1 Pôster. O box reúne os mais famosos contos e poemas de Edgar Allan Poe, que marcaram a literatura com o gênero mistério, sendo geralmente reconhecido como o inventor da ficção policial.O Escaravelho De OuroNuma ilha próxima à Carolina do Sul, um mistério se desenvolve com a descoberta surpreendente de um escaravelho de ouro. Enquanto William Legrand, seu criado e um amigo saem em busca de respostas, o inesperado pode acontecer, em uma aventura recheada de fortes emoções e suspense. Às bordas da sanidade ou loucura, o escaravelho os guiará em uma mensagem secreta até algo inimaginável. Esse é o conto principal no livro você encontrará outras histórias. O Gato Preto E Outas Histórias “Sei que a perversidade é um dos instintos primitivos do coração humano – uma das faculdades ou sentimentos primários indivisíveis que orientam o caráter do Homem.”O Gato Preto traz uma critica sobre a natureza humana e sobre a escuridão presente nos homens, que manifesta-se, principalmente, no desejo pela violência – física ou emocional. Um homem, que durante toda a vida recebeu criticas por ter um bom coração, termina por apegar-se mais aos animais do aos humanos. Entre todos os bichos um gato preto chamado Plutão é o seu favorito. Com o passar dos anos, o temperamento do se degenera, a afeição que antes sentia pelo gato transforma-se em raiva, e com ela surge no homem o gosto pela violência e pelos maus tratos. Em certo momento, tomado pelo ódio, o homem mata o gato. Arrebatado de culpa, vai para um bar e encontra um gato semelhante ao que assassinou. Para se redimir do que fez, resolve levar o novo gato para casa. Contudo, algo perturbador acontece e o homem precisará enfrentar uma prova de fogo. Nesse livro você vai encontrar essas e outras histórias de Edgar Allan Poe. O Corvo e Outras HistóriasO corvo é a obra mais famosa de Edgar Allan Poe, e considerado um dos poemas mais perfeitos já escritos por sua estrutura estética e literária. O enredo versa sobre os delírios de um homem após a morte de sua amada, Lenora, e trata sobre a dor da perda, a falta de esperança e a angústia da existência. O narrador sem nome está folheando um livro antigo em uma noite escura de dezembro quando ouve uma batida. Quando abre a janela, um misterioso corvo pousa sobre o busto de Pallas Atena, e o narrador começa indagar-lhe sobre vários assuntos, sempre obtendo a mesma resposta. Essa e outras histórias extraordinárias você vai encontrar nesse livro.",
+      "amount": 3
     },
     {
       "id": 6,
       "title": "Vade Mecum Compacto - 23 Edição - 2021",
+      "autor": "Saraiva",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31767639-200-200/1011232598.jpg?v=637489970376100000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31767639/1011232598.jpg?v=637489970376100000",
       "price": 150.0,
       "desconto": 36.1,
-      "valorcomdesconto": 113.9
+      "valorcomdesconto": 113.9,
+      "description": "Produto sem descrição.",
+      "amount": 2
     },
     {
       "id": 7,
       "title": "Box - 1984 + A Revolução Dos Bichos - 2 Volumes - Acompanha Marcador De Página, Poster e Cards",
+      "autor": "Pandorga",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31734906-200-200/1011012217.jpg?v=637436239101900000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31734906/1011012217.jpg?v=637436239101900000",
       "price": 79.9,
       "desconto": 40.0,
-      "valorcomdesconto": 39.9
+      "valorcomdesconto": 39.9,
+      "description": "Produto sem descrição",
+      "amount": 1
     },
     {
       "id": 8,
       "title": "Box - o Essencial Sherlock Holmes - 3 Volumes",
+      "autor": "Doyle,Arthur Conan",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12112024-200-200/1005139704.jpg?v=637142259178470000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12112024/1005139704.jpg?v=637142259178470000",
       "price": 59.9,
       "desconto": 24.9,
-      "valorcomdesconto": 35.0
+      "valorcomdesconto": 35.0,
+      "description": "Um personagem tão humano que, com dificuldades para se relacionar com as mulheres e uma extrema infelicidade nas tentativas de fazer novos amigos, confia praticamente todas as suas alegrias e fraquezas ao velho companheiro dr. Watson, médico reformado do Exército, parceiro na verificação de mistérios e biógrafo usado por sir Arthur Conan Doyle para registrar os feitos de Holmes e dar vida às suas andanças pela Europa na resolução de terríveis crimes.Neste volume que é pertencente ao box exclusivo de Sherlock Holmes e foi preparado de maneira minuciosa, como exigiria seu protagonista, reunimos uma seleção dos melhores contos encontrados em obras “Sherlock Holmes” Se as próximas páginas farão você viajar por incríveis mistérios e estimularão ainda mais seu pensamento crítico e analítico?Elementar, meu caro leitor.",
+      "amount": 13
     },
     {
       "id": 9,
       "title": "Pai Rico, Pai Pobre - Edição de 20 Anos",
+      "autor": "Kiyosaki,Robert T.",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12710209-200-200/1010071147.jpg?v=637154380982930000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/12710209/1010071147.jpg?v=637154380982930000",
       "price": 79.9,
       "desconto": 35,
-      "valorcomdesconto": 44.9
+      "valorcomdesconto": 44.9,
+      "description": "Celebrando 20 anos como o livro n° 1 em finanças pessoais. A escola prepara as crianças para o mundo real? Essa é a primeira pergunta com a qual o leitor se depara neste livro. O recado é ousado e direto: boa formação e notas altas não bastam para assegurar o sucesso de alguém. O mundo mudou; a maioria dos jovens tem cartão de crédito, antes mesmo de concluir os estudos, e nunca teve aula sobre dinheiro, investimentos, juros etc. Ou seja, eles vão para a escola, mas continuam financeiramente improficientes, despreparados para enfrentar um mundo que valoriza mais as despesas do que a poupança. Para o autor, o conselho mais perigoso que se pode dar a um jovem nos dias de hoje é: “Vá para a escola, tire notas altas e depoisprocure um trabalho seguro.” O fato é que agora as regras são outras, e não existe mais emprego garantido para ninguém. Pai Rico, Pai Pobre demonstra que a questão não é ser empregado ou empregador, mas ter o controle do próprio destino ou delegá-lo a alguém. É essa a tese de Robert Kiyosaki neste livro substancial e visionário. Para ele, a formação proporcionada pelo sistema educacional não prepara os jovens para o mundo que encontrarão depois de formados. E como os pais podem ensinar aos filhos o que a escola relega? Essa é outra das muitas perguntas que o leitor encontra em Pai Rico, Pai Pobre. Nesse sentido, a proposta do autor é facilitar a tarefa dos pais. Quem entende de contabilidade deve esquecer seus conhecimentos acadêmicos, pois muitas das teorias expostas por Robert Kiyosaki contrariam os princípios contábeis comumente aceitos, e apresentam uma valiosa e moderna percepção do modo como se realizam os investimentos. A sociedade sofre mudanças radicais e, talvez, de proporções maiores do que as ocorridas em séculos passados. Não existe bola de cristal, mas algo é certo: a perspectiva global de transformações transcende nossa realidade imediata. Aconteça o que acontecer, só existem duas alternativas: segurança ou independência financeira. E o objetivo de Pai Rico, Pai Pobre é instruir o leitor e despertar sua inteligência financeira e a de seus filhos. “A principal razão pela qual as pessoas têm problemas financeiros é que passaram anos na escola, mas não aprenderam nada sobre dinheiro. O resultado é que elas aprendem a trabalhar por dinheiro… mas nunca a fazê-lo trabalhar para elas.” — Robert Kiyosaki",
+      "amount": 5
     },
     {
       "id": 10,
       "title": "Vade Mecum 2021 Saraiva - Tradicional - 32ª Edição",
+      "autor": "Saraiva",
       "status": true,
       "image": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31772662-200-200/novo-vade.jpg?v=637630988699330000",
       "imagefull": "https://lojasaraiva.vteximg.com.br/arquivos/ids/31772662/novo-vade.jpg?v=637630988699330000",
       "price": 215.0,
       "desconto": "",
-      "valorcomdesconto": ""
+      "valorcomdesconto": "Produto sem descrição.",
+      "amount": 4
     }
   ]
 }

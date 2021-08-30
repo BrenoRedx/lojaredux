@@ -10,12 +10,6 @@ export function addCompraSucess(saibamais) {
     saibamais,
   };
 }
-export function addCompra(saibamais) {
-  return {
-    type: "ADD_COMPRA",
-    saibamais,
-  };
-}
 
 export function removeCompra(id) {
   return {
@@ -23,9 +17,16 @@ export function removeCompra(id) {
     id,
   };
 }
-export function updateAmountBook(id, amount) {
+export function updateAmountBookRequest(id, amount) {
   return {
-    type: "UPDATE_AMOUNT",
+    type: "UPDATE_AMOUNT_REQUEST",
+    id,
+    amount,
+  };
+}
+export function updateAmountBookSucess(id, amount) {
+  return {
+    type: "UPDATE_AMOUNT_SUCESS",
     id,
     amount,
   };

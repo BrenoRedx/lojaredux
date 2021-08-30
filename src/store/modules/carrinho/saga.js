@@ -1,5 +1,5 @@
 import { call, put, all, takeLatest, select } from "redux-saga/effects";
-import { addCompraSucess, updateAmountBook } from "./actions";
+import { addCompraSucess, updateAmountBookSucess } from "./actions";
 import api from "../../../services/api";
 
 function* addToCompra({ id }) {
@@ -20,7 +20,7 @@ function* addToCompra({ id }) {
   }
 
   if (bookExists) {
-    yield put(updateAmountBook(id, amount));
+    yield put(updateAmountBookSucess(id, amount));
   } else {
     const response = yield call(api.get, `books/${id}`);
 
@@ -32,4 +32,22 @@ function* addToCompra({ id }) {
   }
 }
 
-export default all([takeLatest("ADD_COMPRA_REQUEST", addToCompra)]);
+function* updateAmount({ id, amount }) {
+  if (amount <= 0) return;
+
+  const myStock = yield call(api.get, `/stock/${id}`);
+
+  const stockAmount = myStock.data.amount;
+
+  if (amount > stockAmount) {
+    alert("Quantidade maxima atingida.");
+    return;
+  }
+
+  yield put(updateAmountBookSucess(id, amount));
+}
+
+export default all([
+  takeLatest("ADD_COMPRA_REQUEST", addToCompra),
+  takeLatest("UPDATE_AMOUNT_REQUEST", updateAmount),
+]);

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .container-carrinho {
   background-color: rgb(255, 255, 255);
   padding: 1.5rem;
@@ -46,6 +48,7 @@
   display: flex;
   color: gray;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   text-align: left;
   font-size: 20px;
   padding-left: 20px;
@@ -57,6 +60,7 @@
   color: black;
   text-align: left;
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-top: 80px;
 }
@@ -66,6 +70,7 @@
   color: black;
   text-align: left;
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-top: 10px;
 }
@@ -84,6 +89,7 @@
   color: black;
   text-align: left;
   font-size: 25px;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-top: 80px;
   font-weight: bold;
@@ -94,6 +100,7 @@
   color: green;
   text-align: left;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-top: 120px;
   font-weight: lighter;
@@ -104,6 +111,7 @@
   color: black;
   text-align: left;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   padding-left: 70px;
   padding-top: 160px;
   font-weight: bold;
@@ -114,6 +122,7 @@
   color: black;
   text-align: left;
   font-size: 14px;
+  font-family: "Roboto", sans-serif;
   padding-left: 20px;
   padding-top: 190px;
   font-weight: lighter;
@@ -157,6 +166,7 @@
   color: black;
   text-align: left;
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
   padding-left: 70px;
   padding-top: 60px;
   padding-right: 15px;
@@ -182,4 +192,5 @@
   margin-left: 5px;
   color: black;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
 }

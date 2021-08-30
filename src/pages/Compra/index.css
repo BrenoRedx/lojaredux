@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .container-compra {
   background-color: rgb(255, 255, 255);
   padding: 1.5rem;
@@ -12,7 +14,7 @@
 }
 .line {
   display: flex;
-  width: 90%;
+  width: 1650px;
   position: absolute;
   height: 3px;
   background-color: rgba(128, 128, 128, 0.363);
@@ -49,6 +51,7 @@
   color: black;
   font-size: 20px;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   display: flex;
   position: absolute;
   padding-top: 10px;
@@ -57,6 +60,7 @@
 .texto2 {
   font-size: 25px;
   font-weight: bold;
+  font-family: "Roboto", sans-serif;
   display: flex;
   position: absolute;
   padding-left: 220px;
@@ -65,12 +69,17 @@
 .teste1 {
   display: flex;
   position: absolute;
+  font-family: "Roboto", sans-serif;
+  color: rgba(231, 97, 97, 0.918);
+  font-weight: bold;
+  font-size: 50px;
 }
 .texto3 {
   display: flex;
   position: absolute;
   color: green;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   padding-left: 220px;
   padding-top: 80px;
@@ -80,6 +89,7 @@
   position: absolute;
   color: rgb(0, 0, 0);
   font-size: 17px;
+  font-family: "Roboto", sans-serif;
   font-weight: lighter;
   padding-left: 220px;
   padding-top: 110px;
@@ -90,6 +100,7 @@
   color: rgb(0, 0, 0);
   font-size: 17px;
   font-weight: lighter;
+  font-family: "Roboto", sans-serif;
   padding-left: 420px;
   padding-top: 110px;
 }
@@ -103,6 +114,7 @@
   border-color: black;
   border-radius: 10px;
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
   display: flex;
   position: absolute;

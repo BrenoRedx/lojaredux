@@ -3,7 +3,7 @@ import { useSelector, useDispatch } from "react-redux";
 import "./index.css";
 import { BsFillTrashFill, MdAddCircle, MdRemoveCircle } from "react-icons/all";
 import { removeCompra } from "../../store/modules/carrinho/actions";
-import { updateAmountBook } from "../../store/modules/carrinho/actions";
+import { updateAmountBookRequest } from "../../store/modules/carrinho/actions";
 
 export default function Compra() {
   const dispatch = useDispatch();
@@ -13,10 +13,10 @@ export default function Compra() {
     dispatch(removeCompra(id));
   }
   function decrementAmount(item) {
-    dispatch(updateAmountBook(item.id, item.amount - 1));
+    dispatch(updateAmountBookRequest(item.id, item.amount - 1));
   }
   function incrementAmount(item) {
-    dispatch(updateAmountBook(item.id, item.amount + 1));
+    dispatch(updateAmountBookRequest(item.id, item.amount + 1));
   }
   console.log(compraInfo);
 

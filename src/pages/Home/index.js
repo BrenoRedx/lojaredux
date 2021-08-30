@@ -31,19 +31,21 @@ export default function Home() {
             <li key={key}>
               <img src={item.image} alt={item.title} />
               <strong>{item.title}</strong>
-              <div className="escritor">Kiyosaki, Robert T.</div>
+              <div className="escritor">{item.autor}</div>
               <span className="span">
                 Status: {item.status ? "Disponível" : "Indisponível"}
               </span>
               <div className="escritor">
                 1 oferta a partir de:
                 {item.desconto ? (
-                  <div className="teste">{item.price}</div>
+                  <div className="teste">R${item.price}</div>
                 ) : (
                   <div></div>
                 )}
               </div>
-              <div className="Quantidade">Quantidade disponível : 2</div>
+              <div className="Quantidade">
+                Quantidade disponível : {item.amount}
+              </div>
               <div className="texto-strong">
                 R$
                 {item.desconto ? (

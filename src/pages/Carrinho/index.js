@@ -1,14 +1,11 @@
 import React, { useEffect, useState } from "react";
-import "./index.css";
 import { BsCreditCard } from "react-icons/bs";
 import { useParams } from "react-router";
-import api from "../../services/api";
 import { useDispatch } from "react-redux";
-import {
-  // addCompra,
-  addCompraRequest,
-} from "../../store/modules/carrinho/actions";
-//import { useSelector } from "react-redux";
+import { addCompraRequest } from "../../store/modules/carrinho/actions";
+import "react-toastify/dist/ReactToastify.css";
+import "./index.css";
+import api from "../../services/api";
 
 export default function Carrinho() {
   const dispatch = useDispatch();
@@ -35,22 +32,7 @@ export default function Carrinho() {
       <div className="container-carrinho">
         <div className="container-descricao">
           <h2>Descrição do Produto</h2>
-          <div className="descricao-text">
-            Napoleon Hill revela que quebrou o código mental do diabo e o forçou
-            a confessar os seus segredos. O manuscrito que resultou deste feito
-            - "Mais Esperto que o Diabo"- mostrou-se tão controverso, que acabou
-            escondido por mais de 70 anos. Usando sua habilidade legendária para
-            chegar a raiz do potencial humano, Hill cava profundamente para
-            identificar os maiores obstáculos que enfrentamos na busca de nossas
-            metas pessoais - incluindo o medo, procrastinação, a raiva e a
-            inveja - como ferramentas orquestradas pelo próprio diabo. Esses
-            métodos ocultos de controle podem levar-nos a ruína, e Hill revela
-            os 7 princípios que eficazmente poderão combater a alienação e
-            levar-nos finalmente ao triunfo e ao sucesso. Fascinante,
-            provocativo e encorajador, "Mais Esperto que o Diabo" mostra como
-            criar a sua própria senha para o sucesso, harmonia e realização em
-            um momento de tantas incertezas e medos.
-          </div>
+          <div className="descricao-text">{saibamais.description}</div>
         </div>
         <img src={saibamais.imagefull} alt="teste"></img>
         <h2 className="title">{saibamais.title}</h2>
@@ -104,7 +86,9 @@ export default function Carrinho() {
             )}
             - em 1x vez
           </div>
-          <div className="texto-card-compra8">Quantidade disponível:2</div>
+          <div className="texto-card-compra8">
+            Quantidade disponível: {saibamais.amount}
+          </div>
           <button
             className="button-card-compra"
             onClick={() => handleAdd(saibamais.id)}

@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 .box {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -23,6 +25,7 @@
 }
 .box strong {
   font-size: 16px;
+  font-family: "Roboto", sans-serif;
   line-height: 20px;
   color: #191919;
   margin-top: 10px;
@@ -34,6 +37,7 @@
   position: absolute;
   text-align: left;
   font-size: 30px;
+  font-family: "Roboto", sans-serif;
   padding-left: 5px;
   padding-top: 390px;
   margin-bottom: 10px;
@@ -41,6 +45,7 @@
 .escritor {
   color: rgb(138, 119, 119);
   font-weight: lighter;
+  font-family: "Roboto", sans-serif;
   text-align: left;
   margin-left: 10px;
   margin-top: 10px;
@@ -50,15 +55,15 @@
   margin-left: 8px;
   font-weight: lighter;
   font-size: 20px;
+  font-family: "Roboto", sans-serif;
 }
 .container-image {
   display: flex;
   background-color: rgb(255, 255, 255);
   width: 1200px;
   height: 400px;
-  margin-left: 270px;
+  margin-left: 380px;
   margin-top: 100px;
-  border-radius: 5px;
 }
 .background-image {
   display: flex;
@@ -80,10 +85,11 @@
 .Quantidade {
   display: flex;
   position: absolute;
-  color: rgb(2, 2, 2);
+  color: rgb(236, 156, 156);
   padding-top: 360px;
   padding-left: 12px;
   font-weight: lighter;
+  font-family: "Roboto", sans-serif;
 }
 .button-style {
   color: rgb(0, 0, 0);
@@ -95,6 +101,7 @@
   border-color: black;
   border-radius: 10px;
   font-size: 15px;
+  font-family: "Roboto", sans-serif;
   text-decoration: none;
 }
 .teste {
