@@ -4,7 +4,10 @@ import { BsCreditCard } from "react-icons/bs";
 import { useParams } from "react-router";
 import api from "../../services/api";
 import { useDispatch } from "react-redux";
-import { addCompra } from "../../store/modules/carrinho/actions";
+import {
+  // addCompra,
+  addCompraRequest,
+} from "../../store/modules/carrinho/actions";
 //import { useSelector } from "react-redux";
 
 export default function Carrinho() {
@@ -23,8 +26,8 @@ export default function Carrinho() {
 
   console.log(saibamais);
 
-  function handleAdd(saibamais) {
-    dispatch(addCompra(saibamais));
+  function handleAdd(id) {
+    dispatch(addCompraRequest(id));
   }
 
   return (
@@ -104,7 +107,7 @@ export default function Carrinho() {
           <div className="texto-card-compra8">Quantidade disponível:2</div>
           <button
             className="button-card-compra"
-            onClick={() => handleAdd(saibamais)}
+            onClick={() => handleAdd(saibamais.id)}
           >
             Comprar
           </button>

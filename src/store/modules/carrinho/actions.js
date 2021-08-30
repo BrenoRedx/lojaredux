@@ -4,10 +4,10 @@ export function addCompraRequest(id) {
     id,
   };
 }
-export function addCompraSucess(data) {
+export function addCompraSucess(saibamais) {
   return {
     type: "ADD_COMPRA_SUCESS",
-    data,
+    saibamais,
   };
 }
 export function addCompra(saibamais) {

@@ -1,7 +1,8 @@
 import produce from "immer";
 
-export default function compra(state = [], action) {
+export default function carrinho(state = [], action) {
   switch (action.type) {
+    /*
     case "ADD_COMPRA":
       return produce(state, (draft) => {
         const bookIndex = draft.findIndex(
@@ -17,7 +18,16 @@ export default function compra(state = [], action) {
           });
         }
       });
-
+*/
+    /*    case "ADD_RESERVE_SUCCESS":
+      return produce(state, (draft) => {
+        draft.push(action.saibamais);
+      });
+      */
+    case "ADD_COMPRA_SUCESS":
+      return produce(state, (draft) => {
+        draft.push(action.saibamais);
+      });
     case "REMOVE_BOOK":
       return produce(state, (draft) => {
         const bookIndex = draft.findIndex((book) => book.id === action.id);
